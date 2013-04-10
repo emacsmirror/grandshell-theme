@@ -37,6 +37,8 @@
 
 ;;; Code:
 
+(deftheme grandshell "Grand Shell, a dark theme for Emacs24+")
+
 (require 'color)
 
 (let ((class '((class color) (min-colors 89)))
