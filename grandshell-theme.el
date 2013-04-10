@@ -7,6 +7,8 @@
 ;; URL: https://github.com/steckerhalter/grandshell-theme
 ;; Version: 0.1
 
+;; This file is not part of GNU Emacs.
+
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation; either version 2, or (at your option)
@@ -21,7 +23,7 @@
 ;; along with GNU Emacs; see the file COPYING.  If not, write to
 ;; the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 ;; Boston, MA 02111-1307, USA.
-;;
+
 ;;; Commentary:
 
 ;; Dark color theme for Emacs with intensive colors. The theme
@@ -30,6 +32,7 @@
 ;; Steve Purcell.
 
 ;;; Requirements:
+
 ;; Emacs 24.
 
 ;;; Code:
@@ -497,6 +500,15 @@
    `(custom-group-tag ((,class (:foreground ,blue))))
    `(custom-state-tag ((,class (:foreground ,green))))
    ))
+
+;;;###autoload
+(when (and (boundp 'custom-theme-load-path) load-file-name)
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
+;; Local Variables:
+;; no-byte-compile: t
+;; End:
 
 (provide-theme 'grandshell)
 
