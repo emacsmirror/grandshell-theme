@@ -65,7 +65,7 @@
    'grandshell
 
    ;; Standard font lock faces
-   `(default ((,class (:foreground ,normal :background ,background :family "Bitstream Vera Sans Mono" :height 89))))
+   `(default ((,class (:foreground ,normal :background ,background)))
    `(bold ((,class (:weight bold))))
    `(bold-italic ((,class (:slant italic :weight bold))))
    `(underline ((,class (:underline t))))
