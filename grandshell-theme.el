@@ -77,7 +77,7 @@
    `(font-lock-function-name-face ((,class (:foreground ,blue))))
    `(font-lock-keyword-face ((,class (:foreground ,cyan))))
    `(font-lock-negation-char-face ((,class (:foreground ,green))))
-   `(font-lock-preprocessor-face ((,class (:foreground ,cyan))))
+   `(font-lock-preprocessor-face ((,class (:foreground ,strong))))
    `(font-lock-regexp-grouping-backslash ((,class (:foreground ,cyan))))
    `(font-lock-regexp-grouping-construct ((,class (:foreground ,magenta))))
    `(font-lock-string-face ((,class (:foreground ,pink))))
