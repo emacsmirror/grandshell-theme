@@ -29,7 +29,7 @@ Here's a basic recipe you can use to install it via el-get:
            :minimum-emacs-version 24
            :post-init (add-to-list 'custom-theme-load-path default-directory))
 
-### Usage
+## Usage
 
 In Emacs24 you can just use `M-x customize-themes` to select themes.
 
@@ -39,6 +39,6 @@ If you want to load the theme in your `.emacs` or similar you can add:
 
 and the theme should be loaded and activated on startup.
 
-### Screenshot
+## Screenshot
 
 ![screen shot](https://raw.github.com/steckerhalter/grandshell-theme/master/grandshell-theme.png "recent screen shot")
