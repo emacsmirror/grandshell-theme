@@ -94,6 +94,9 @@
    `(warning ((,class (:foreground ,orange))))
    `(outline-4 ((,class (:slant normal :foreground ,faint))))
 
+   ;; Fic-mode
+   `(font-lock-fic-face ((,class (:background ,red :foreground ,red-darkest :weight bold))))
+
    ;; ;; helm (these probably needs tweaking)
    `(helm-M-x-key ((,class (:foreground ,pink :underline t))))
    `(helm-buffer-size ((,class (:foreground ,orange))))
