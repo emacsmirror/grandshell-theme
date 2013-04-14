@@ -51,13 +51,16 @@
       (red-darkest "#1a0000")
       (redpink "#f25e80")
       (pink "#ef4990")
+      (pink-darker "#aa2255")
       (orange "#efc334")
       (yellow "#f6df92")
       (yellow-dark "#643")
-      (bright-green "#dcf692")
+      (green-bright "#dcf692")
       (green "#bdef34")
+      (green-darker "#77bb33")
       (cyan "#5af2ce")
       (blue "#92aaf6")
+      (blue-darker "#5555dd")
       (magenta "#b300ff")
       (violet "#78537A")
       (violet-darkest "#110011")
@@ -217,6 +220,10 @@
    `(ediff-even-diff-B ((,class (:foreground nil :background nil :inverse-video t))))
    `(ediff-odd-diff-A  ((,class (:foreground ,faint :background nil :inverse-video t))))
    `(ediff-odd-diff-B  ((,class (:foreground ,faint :background nil :inverse-video t))))
+
+   `(diff-hl-change ((,class (:foreground ,blue :background ,blue-darker))))
+   `(diff-hl-delete ((,class (:foreground ,pink :background ,pink-darker))))
+   `(diff-hl-insert ((,class (:foreground ,green :background ,green-darker))))
 
    `(eldoc-highlight-function-argument ((,class (:foreground ,green :weight bold))))
 
