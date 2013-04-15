@@ -115,7 +115,10 @@
    `(ac-yasnippet-candidate-face ((,class (:background ,pink-darker :foreground ,darkest))))
    `(ac-yasnippet-selection-face ((,class (:background ,pink :foreground ,darkest))))
 
-   ;; ;; helm (these probably needs tweaking)
+   ;; highlight-symbol
+   `(highlight-symbol-face ((,class (:background ,very-dark))))
+
+   ;; helm
    `(helm-M-x-key ((,class (:foreground ,pink :underline t))))
    `(helm-buffer-size ((,class (:foreground ,orange))))
    `(helm-buffer-not-saved ((,class (:foreground ,orange))))
