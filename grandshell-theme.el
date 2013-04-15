@@ -43,12 +43,18 @@
       (background "black")
       (alt-background "#222")
       (strong "#eee")
+      (bright "#eee")
       (normal "gray")
       (faint "#888")
+      (dark "#888")
       (faintest "#333")
+      (very-dark "#333")
+      (darkest "black")
       (contrast-background "#331133")
+      (red-brightest "#ffbbbb")
       (red-bright "#f25e50")
       (red "red")
+      (red-dark "#5a0000")
       (red-darkest "#1a0000")
       (pink "#ef4990")
       (pink-darker "#aa2255")
@@ -61,7 +67,10 @@
       (cyan "#5af2ce")
       (blue "#92aaf6")
       (blue-darker "#5555dd")
+      (magenta-bright "#e38fff")
       (magenta "#b300ff")
+      (magenta-dark "#34004A")
+      (magenta-darkest "#1B0026")
       (violet "#78537A")
       (violet-darkest "#110011")
       )
@@ -99,6 +108,13 @@
 
    ;; Fic-mode
    `(font-lock-fic-face ((,class (:background ,red :foreground ,red-darkest :weight bold))))
+
+   ;; auto-complete
+   `(ac-completion-face ((,class (:foreground ,bright :underline t))))
+   `(ac-candidate-face ((,class (:background ,magenta-darkest :foreground ,bright))))
+   `(ac-selection-face ((,class (:background ,magenta :foreground ,darkest))))
+   `(ac-yasnippet-candidate-face ((,class (:background ,pink-darker :foreground ,darkest))))
+   `(ac-yasnippet-selection-face ((,class (:background ,pink :foreground ,darkest))))
 
    ;; ;; helm (these probably needs tweaking)
    `(helm-M-x-key ((,class (:foreground ,pink :underline t))))
