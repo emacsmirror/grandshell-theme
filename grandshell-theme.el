@@ -5,7 +5,6 @@
 ;; Author: steckerhalter
 ;; Keywords: color theme grand shell faces
 ;; URL: https://github.com/steckerhalter/grandshell-theme
-;; Version: 0.1
 
 ;; This file is not part of GNU Emacs.
 
