@@ -57,11 +57,11 @@
       (red-darkest "#1a0000")
       (pink "#ff5f87")
       (pink-darker "#aa2255")
-      (orange "#ffbf48")
+      (orange "#efc334")
       (yellow "#f6df92")
       (yellow-dark "#643")
       (green-bright "#dcf692")
-      (green "#acfb5e")
+      (green "#acfb5a")
       (green-darker "#77bb33")
       (cyan "#5af2ee")
       (blue "#b2baf6")
@@ -107,6 +107,9 @@
 
    ;; Fic-mode
    `(font-lock-fic-face ((,class (:background ,red :foreground ,red-darkest :weight bold))))
+
+   ;; eval-sexp-fu
+   `(eval-sexp-fu-flash ((,class (:background ,magenta-dark))))
 
    ;; auto-complete
    `(ac-completion-face ((,class (:foreground ,bright :underline t))))
@@ -200,7 +203,7 @@
    `(mode-line-buffer-id ((t (:foreground ,yellow))))
    `(mode-line-emphasis ((,class (:foreground ,magenta))))
    `(minibuffer-prompt ((,class (:foreground ,blue))))
-   `(region ((,class (:background ,contrast-background))))
+   `(region ((,class (:background ,magenta-dark))))
    `(secondary-selection ((,class (:background ,alt-background))))
 
    `(header-line ((,class (:inherit mode-line :foreground ,magenta :background nil))))
