@@ -111,6 +111,9 @@
    ;; eval-sexp-fu
    `(eval-sexp-fu-flash ((,class (:background ,magenta-dark))))
 
+   ;; nrepl-eval-sexp-fu
+   `(nrepl-eval-sexp-fu-flash ((,class (:background ,magenta-dark))))
+
    ;; auto-complete
    `(ac-completion-face ((,class (:foreground ,bright :underline t))))
    `(ac-candidate-face ((,class (:background ,magenta-darkest :foreground ,bright))))
