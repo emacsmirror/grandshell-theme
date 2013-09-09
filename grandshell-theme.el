@@ -323,6 +323,7 @@
    `(compilation-mode-line-exit ((,class (:foreground ,green))))
    `(compilation-mode-line-fail ((,class (:foreground ,red))))
    `(compilation-mode-line-run ((,class (:foreground ,blue))))
+   `(compilation-info ((,class (:foreground ,malachite))))
 
    ;; Grep
    `(grep-context-face ((,class (:foreground ,faint))))
