@@ -558,7 +558,7 @@
    `(undo-tree-visualizer-register-face ((,class (:foreground ,yellow))))
 
    ;; web-mode
-   `(web-mode-html-tag-face ((,class (:inherit ,bright))))
+   `(web-mode-html-tag-face ((,class (:foreground ,bright))))
    `(web-mode-html-attr-name-face ((,class (:inherit font-lock-doc-face))))
    `(web-mode-doctype-face ((,class (:inherit font-lock-builtin-face))))
    ))
