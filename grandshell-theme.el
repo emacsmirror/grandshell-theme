@@ -161,6 +161,9 @@
    `(ac-yasnippet-candidate-face ((,class (:background ,pink-darker :foreground ,darkest))))
    `(ac-yasnippet-selection-face ((,class (:background ,pink :foreground ,darkest))))
 
+   ;; auto-dim-other-buffers
+   `(auto-dim-other-buffers-face ((,class (:background "#0c0c0c"))))
+
    ;; clojure
    `(clojure-test-failure-face ((,class (:background nil :inherit flymake-warnline))))
    `(clojure-test-error-face ((,class (:background nil :inherit flymake-errline))))
