@@ -372,6 +372,9 @@
    ;; highlight-symbol
    `(highlight-symbol-face ((,class (:background ,very-dark))))
 
+   ;; icomplete
+   `(icomplete-first-match ((,class (:foreground "white" :bold t))))
+
    ;; ido
    `(ido-subdir ((,class (:foreground ,magenta))))
    `(ido-first-match ((,class (:foreground ,yellow))))
