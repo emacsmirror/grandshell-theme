@@ -555,7 +555,7 @@
    `(term-color-black ((,class (:background ,alt-background :foreground ,alt-background))))
    `(term-color-blue ((,class (:background ,blue :foreground ,blue))))
    `(term-color-cyan ((,class (:background ,cyan :foreground ,cyan))))
-   `(term-color-green ((,class (:background ,green :foreground ,green))))
+   `(term-color-green ((,class (:background ,malachite :foreground ,malachite))))
    `(term-color-magenta ((,class (:background ,magenta :foreground ,magenta))))
    `(term-color-red ((,class (:background ,red :foreground ,red))))
    `(term-color-white ((,class (:background ,contrast-background :foreground ,contrast-background))))
