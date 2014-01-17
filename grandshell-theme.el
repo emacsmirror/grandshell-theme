@@ -484,7 +484,7 @@
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,faint))))
    `(org-block ((,class (:foreground ,orange))))
    `(org-code ((,class (:foreground ,yellow))))
-   `(org-column ((,class (:background ,magenta))))
+   `(org-column ((,class (:background ,darkest))))
    `(org-column-title ((,class (:inherit org-column :weight bold :underline t))))
    `(org-date ((,class (:foreground ,blue :underline t))))
    `(org-document-info ((,class (:foreground ,pink))))
