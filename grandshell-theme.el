@@ -77,6 +77,7 @@
       (magenta-darkest "#1B0026")
       (violet "#78537A")
       (violet-darkest "#110011")
+      (violet-red "#d020a7")
       )
 
   (custom-theme-set-faces
@@ -135,7 +136,7 @@
    `(font-lock-function-name-face ((,class (:foreground ,magenta-bright))))
    `(font-lock-keyword-face ((,class (:foreground ,cyan))))
    `(font-lock-negation-char-face ((,class (:foreground ,green))))
-   `(font-lock-preprocessor-face ((,class (:foreground ,red-bright))))
+   `(font-lock-preprocessor-face ((,class (:foreground ,violet-red))))
    `(font-lock-regexp-grouping-backslash ((,class (:foreground ,cyan))))
    `(font-lock-regexp-grouping-construct ((,class (:foreground ,magenta))))
    `(font-lock-string-face ((,class (:foreground ,pink))))
