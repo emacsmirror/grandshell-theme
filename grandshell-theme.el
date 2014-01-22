@@ -478,10 +478,11 @@
    `(nxml-delimited-data-face ((,class (:foreground unspecified :inherit font-lock-string-face))))
 
    ;; org
-   `(org-agenda-structure ((,class (:foreground ,violet))))
+   `(org-agenda-clocking ((,class (:background ,magenta-darkest))))
    `(org-agenda-date ((,class (:foreground ,blue :underline nil))))
    `(org-agenda-done ((,class (:foreground ,green))))
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,faint))))
+   `(org-agenda-structure ((,class (:foreground ,violet))))
    `(org-block ((,class (:foreground ,orange))))
    `(org-code ((,class (:foreground ,yellow))))
    `(org-column ((,class (:inherit default))))
