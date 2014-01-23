@@ -480,7 +480,7 @@
    ;; org
    `(org-agenda-structure ((,class (:foreground ,violet))))
    `(org-agenda-date ((,class (:foreground ,blue :underline nil))))
-   `(org-agenda-done ((,class (:foreground ,green))))
+   `(org-agenda-done ((,class (:inherit default))))
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,faint))))
    `(org-block ((,class (:foreground ,orange))))
    `(org-code ((,class (:foreground ,yellow))))
