@@ -490,8 +490,8 @@
 
    ;; org
    `(org-agenda-structure ((,class (:foreground ,violet))))
-   `(org-agenda-date ((,class (:foreground ,blue :underline nil))))
-   `(org-agenda-done ((,class (:inherit default))))
+   `(org-agenda-date ((,class (:foreground "white"))))
+   `(org-agenda-done ((,class (:foreground ,green-darker))))
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,faint))))
    `(org-block ((,class (:foreground ,orange))))
    `(org-code ((,class (:foreground ,yellow))))
@@ -511,16 +511,17 @@
    `(org-level-3 ((,class (:foreground ,pink))))
    `(org-level-4 ((,class (:foreground ,cyan))))
    `(org-link ((,class (:foreground ,turquoise :underline t))))
-   `(org-scheduled ((,class (:foreground ,green))))
-   `(org-scheduled-previously ((,class (:foreground ,yellow))))
-   `(org-scheduled-today ((,class (:foreground ,green))))
+   `(org-scheduled ((,class (:foreground ,yellow-darker))))
+   `(org-scheduled-previously ((,class (:foreground ,orange))))
+   `(org-scheduled-today ((,class (:foreground ,blue))))
    `(org-special-keyword ((,class (:foreground ,yellow-darker))))
    `(org-table ((,class (:foreground ,magenta))))
    `(org-tag ((,class (:foreground ,violet))))
    `(org-target ((,class (:foreground ,green))))
+   `(org-time-grid ((,class (:inherit default))))
    `(org-todo ((,class (:foreground ,red-bright))))
    `(org-upcoming-deadline ((,class (:foreground ,yellow))))
-   `(org-warning ((,class (:weight bold :foreground ,red))))
+   `(org-warning ((,class (:foreground ,yellow))))
 
    ;; outline
    `(outline-3 ((,class (:inherit nil :foreground ,green))))
