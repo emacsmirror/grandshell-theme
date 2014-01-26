@@ -178,6 +178,17 @@
    `(clojure-special ((,class (:foreground ,blue))))
    `(clojure-java-call ((,class (:foreground ,magenta))))
 
+   ;; company
+   `(company-preview ((,class (:foreground ,bright))))
+   `(company-preview-common ((,class (:foreground ,bright :underline t))))
+   `(company-preview-search ((,class (:foreground ,darkest :background ,yellow))))
+   `(company-tooltip ((,class (:background ,magenta-darkest  :foreground ,normal))))
+   `(company-tooltip-common ((,class (:inherit company-tooltip :foreground ,bright))))
+   `(company-tooltip-common-selection ((,class (:inherit company-tooltip-selection))))
+   `(company-tooltip-selection ((,class (:background ,magenta :foreground ,darkest))))
+   `(company-scrollbar-bg ((,class (:background ,yellow-dark))))
+   `(company-scrollbar-fg ((,class (:background ,yellow))))
+
    ;; compilation
    `(compilation-column-number ((,class (:foreground ,yellow))))
    `(compilation-line-number ((,class (:foreground ,yellow))))
