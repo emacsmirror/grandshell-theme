@@ -119,8 +119,8 @@
    `(warning ((,class (:foreground ,orange))))
    `(error ((,class (:foreground ,red))))
 
-   `(show-paren-match ((,class (:background nil :foreground nil :inverse-video t))))
-   `(show-paren-mismatch ((,class (:background ,magenta :foreground ,background))))
+   `(show-paren-match ((,class (:foreground "#FFE200" :background nil :slant italic :weight bold))))
+   `(show-paren-mismatch ((,class (:background ,background :inherit font-lock-warning-face :inverse-video t))))
 
    `(custom-variable-tag ((,class (:foreground ,blue))))
    `(custom-group-tag ((,class (:foreground ,blue))))
