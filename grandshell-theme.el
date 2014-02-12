@@ -564,6 +564,12 @@
    `(slime-repl-result-face ((,class (:foreground ,green))))
    `(slime-repl-output-face ((,class (:foreground ,blue :background ,background))))
 
+   ;; smart-mode-line
+   `(sml/prefix ((,class (:foreground ,green-bright))))
+   `(sml/folder ((,class (:foreground ,magenta-bright))))
+   `(sml/filename ((,class (:foreground ,yellow))))
+   `(sml/vc-edited ((,class (:foreground ,pink))))
+
    ;; term
    `(term-color-black ((,class (:background ,alt-background :foreground ,alt-background))))
    `(term-color-blue ((,class (:background ,blue :foreground ,blue))))
