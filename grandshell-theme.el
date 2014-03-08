@@ -381,6 +381,7 @@
    `(helm-source-header ((,class (:background ,background, :foreground ,pink, :underline t, :weight bold))))
    `(helm-ff-directory ((t (:foreground ,magenta))))
    `(helm-ff-symlink ((t (  :foreground ,yellow))))
+   `(helm-buffer-directory ((t (:foreground ,magenta))))
 
    ;; highlight-symbol
    `(highlight-symbol-face ((,class (:background ,very-dark))))
