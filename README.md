@@ -4,9 +4,20 @@ Dark color theme for Emacs >= 24 with intensive colors suited to my taste :)
 
 ## Installation ##
 
-### MELPA
+### quelpa
 
-You can install the theme using the packages on [Melpa](http://melpa.milkbox.net/).
+`quelpa` is at https://github.com/quelpa/quelpa
+
+```lisp
+(quelpa '(grandshell-theme :repo "steckerhalter/grandshell-theme" :fetcher github))
+;; since the recipe is stored in melpa this also works:
+(quelpa 'grandshell-theme)
+```
+Interactively: `M-x quelpa grandshell-theme RET`.
+
+### melpa
+
+You can install the theme using the packages on [melpa](http://melpa.milkbox.net/).
 
 Make sure you have something like the following in your Emacs startup file (`~/.emacs.d/init.el`, or `~/.emacs`):
 
