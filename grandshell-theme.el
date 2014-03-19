@@ -522,6 +522,7 @@
    `(org-time-grid ((,class (:inherit default))))
    `(org-todo ((,class (:foreground ,red-bright))))
    `(org-upcoming-deadline ((,class (:foreground ,yellow))))
+   `(org-verbatim ((,class (:foreground ,yellow))))
    `(org-warning ((,class (:foreground ,yellow))))
 
    ;; outline
