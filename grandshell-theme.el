@@ -384,7 +384,7 @@
    `(helm-buffer-directory ((t (:foreground ,magenta))))
 
    ;; highlight-symbol
-   `(highlight-symbol-face ((,class (:background ,magenta-dark))))
+   `(highlight-symbol-face ((,class (:background ,yellow-dark))))
 
    ;; icomplete
    `(icomplete-first-match ((,class (:foreground "white" :bold t))))
