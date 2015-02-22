@@ -455,6 +455,13 @@
    ;; markdown
    `(markdown-url-face ((,class (:inherit link))))
    `(markdown-link-face ((,class (:foreground ,blue :underline t))))
+   `(markdown-header-face-1 ((,class (:inherit org-level-1))))
+   `(markdown-header-face-2 ((,class (:inherit org-level-2))))
+   `(markdown-header-face-3 ((,class (:inherit org-level-3))))
+   `(markdown-header-face-4 ((,class (:inherit org-level-4))))
+   `(markdown-header-delimiter-face ((,class (:foreground ,orange))))
+   `(markdown-pre-face ((,class (:foreground "white"))))
+   `(markdown-inline-code-face ((,class (:foreground "white"))))
 
    ;; mark-multiple
    `(mm/master-face ((,class (:inherit region :foreground nil :background nil))))
@@ -490,7 +497,7 @@
    `(nxml-delimited-data-face ((,class (:foreground unspecified :inherit font-lock-string-face))))
 
    ;; org
-   `(org-agenda-structure ((,class (:foreground ,violet))))
+   `(org-agenda-structure ((,class (:foreground ,blue))))
    `(org-agenda-date ((,class (:foreground "white"))))
    `(org-agenda-done ((,class (:foreground ,green-darker))))
    `(org-agenda-dimmed-todo-face ((,class (:foreground ,faint))))
