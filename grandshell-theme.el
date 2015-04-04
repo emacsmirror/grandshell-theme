@@ -69,6 +69,7 @@
       (cyan "#5af2ee")
       (turquoise "#3affa3")
       (malachite "#3aff83")
+      (blue-bright "#dcdff2")
       (blue "#b2baf6")
       (blue-darker "#5555dd")
       (magenta-bright "#f09fff")
@@ -205,6 +206,8 @@
    `(diff-header ((,class (:foreground ,cyan :background nil))))
    `(diff-file-header ((,class (:foreground ,blue :background nil))))
    `(diff-hunk-header ((,class (:foreground ,magenta))))
+   `(diff-refine-removed ((,class (:inherit magit-diff-removed-highlight :foreground ,red-brightest))))
+   `(diff-refine-added ((,class (:inherit magit-diff-added-highlight :foreground ,blue-bright))))
 
    ;; diff-hl
    `(diff-hl-change ((,class (:foreground ,blue :background ,blue-darker))))
@@ -451,6 +454,23 @@
    `(magit-log-head-label-remote ((,class (:foreground ,violet :box nil :weight bold))))
    `(magit-log-head-label-tags ((,class (:foreground ,cyan :box nil :weight bold))))
    `(magit-section-title ((,class (:foreground ,blue :weight bold))))
+
+   ;; magit `next'
+   `(magit-section ((,class (:inherit nil :weight bold))))
+   `(magit-section-highlight ((,class (:foreground ,bright))))
+   `(magit-section-heading ((,class (:foreground ,blue-bright))))
+   `(magit-branch-local ((,class (:foreground ,turquoise))))
+   `(magit-branch-remote ((,class (:foreground ,yellow))))
+   `(magit-hash ((,class (:foreground "white"))))
+   `(magit-diff-file-heading ((,class (:foreground ,yellow))))
+   `(magit-diff-hunk-heading ((,class (:foreground ,magenta))))
+   `(magit-diff-hunk-heading-highlight ((,class (:inherit magit-diff-hunk-heading :weight bold))))
+   `(magit-diff-context ((,class (:foreground ,normal))))
+   `(magit-diff-context-highlight ((,class (:inherit magit-diff-context :foreground ,bright))))
+   `(magit-diff-added ((,class (:foreground ,blue))))
+   `(magit-diff-added-highlight ((,class (:inherit magit-diff-added :weight bold))))
+   `(magit-diff-removed ((,class (:foreground ,red-bright))))
+   `(magit-diff-removed-highlight ((,class (:inherit magit-diff-removed :weight bold))))
 
    ;; markdown
    `(markdown-url-face ((,class (:inherit link))))
