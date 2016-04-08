@@ -2,6 +2,8 @@
 
 Dark color theme for Emacs >= 24 with intensive colors suited to my taste :)
 
+Note: I'm not actively developing this theme anymore since I have started to use [lorisan-theme](https://github.com/hubisan/lorisan-theme) which takes a similar approach in its choice and harmony of colors, but has been refined and tweaked much better than my theme
+
 ## Installation ##
 
 ### quelpa
