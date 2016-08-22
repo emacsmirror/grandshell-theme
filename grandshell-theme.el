@@ -43,7 +43,7 @@
       (alt-background "#222")
       (strong "#eee")
       (bright "#eee")
-      (normal "gray")
+      (normal "#ccc")
       (faint "#888")
       (dark "#888")
       (faintest "#333")
