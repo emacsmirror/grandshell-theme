@@ -553,8 +553,10 @@
    `(org-warning ((,class (:foreground ,yellow))))
 
    ;; outline
-   `(outline-3 ((,class (:inherit nil :foreground ,green))))
-   `(outline-4 ((,class (:slant normal :foreground ,faint))))
+   `(outline-1 ((,class (:inherit org-level-1))))
+   `(outline-2 ((,class (:inherit org-level-2))))
+   `(outline-3 ((,class (:inherit org-level-3))))
+   `(outline-4 ((,class (:inherit org-level-4))))
 
    ;; parenface
    `(paren-face ((,class (:foreground ,faintest :background nil))))
