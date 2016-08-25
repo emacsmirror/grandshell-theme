@@ -383,9 +383,10 @@
    `(helm-separator ((,class (:foreground ,red))))
    `(helm-source-header ((,class (:background ,background, :foreground ,pink, :underline t, :weight bold))))
    `(helm-ff-directory ((t (:foreground ,magenta))))
-   `(helm-ff-symlink ((t (  :foreground ,yellow))))
+   `(helm-ff-symlink ((t (:foreground ,yellow))))
    `(helm-buffer-directory ((t (:foreground ,magenta))))
    `(helm-match ((t (:foreground ,yellow))))
+   `(helm-ff-prefix ((t (:foreground ,yellow :weight bold))))
 
    ;; highlight-symbol
    `(highlight-symbol-face ((,class (:background ,yellow-dark))))
