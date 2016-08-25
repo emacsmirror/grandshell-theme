@@ -385,6 +385,7 @@
    `(helm-ff-directory ((t (:foreground ,magenta))))
    `(helm-ff-symlink ((t (  :foreground ,yellow))))
    `(helm-buffer-directory ((t (:foreground ,magenta))))
+   `(helm-match ((t (:foreground ,yellow))))
 
    ;; highlight-symbol
    `(highlight-symbol-face ((,class (:background ,yellow-dark))))
