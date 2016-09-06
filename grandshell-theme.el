@@ -294,6 +294,8 @@
 
    ;; flycheck
    `(flycheck-error-face ((t (:foreground ,red :background ,red-darkest :weight bold))))
+   `(flycheck-error ((,class (:underline (:color ,red)))))
+   `(flycheck-warning ((,class (:underline (:color ,orange)))))
 
    ;; flymake
    `(flymake-warnline ((,class (:underline ,orange :background ,background))))
