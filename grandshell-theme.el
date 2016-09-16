@@ -39,7 +39,7 @@
 (deftheme grandshell "Grand Shell, a dark theme for Emacs24+")
 
 (let ((class '((class color) (min-colors 89)))
-      (background "black")
+      (background "#050505")
       (alt-background "#222")
       (strong "#eee")
       (bright "#eee")
