@@ -486,6 +486,7 @@
    `(markdown-header-delimiter-face ((,class (:foreground ,orange))))
    `(markdown-pre-face ((,class (:foreground "white"))))
    `(markdown-inline-code-face ((,class (:foreground "white"))))
+   `(markdown-list-face ((,class (:foreground ,cyan))))
 
    ;; mark-multiple
    `(mm/master-face ((,class (:inherit region :foreground nil :background nil))))
