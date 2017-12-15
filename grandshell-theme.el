@@ -143,7 +143,7 @@
    `(font-lock-string-face ((,class (:foreground ,pink))))
    `(font-lock-type-face ((,class (:foreground ,blue))))
    `(font-lock-variable-name-face ((,class (:foreground ,yellow))))
-   `(font-lock-warning-face ((,class (:weight bold :foreground ,red))))
+   `(font-lock-warning-face ((,class (:weight bold :foreground ,red-bright))))
 
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
    ;; mode specific faces
