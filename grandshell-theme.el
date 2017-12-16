@@ -372,6 +372,11 @@
    `(grep-hit-face ((,class (:foreground ,blue))))
    `(grep-match-face ((,class (:foreground nil :background nil :inherit match))))
 
+   ;; hackernews
+   `(hackernews-link ((,class (:foreground ,orange))))
+   `(hackernews-comment-count ((,class (:foreground ,yellow-dark))))
+   `(hackernews-score ((,class (:foreground ,yellow-darker))))
+
    ;; helm
    `(helm-M-x-key ((,class (:foreground ,pink :underline t))))
    `(helm-buffer-size ((,class (:foreground ,orange))))
