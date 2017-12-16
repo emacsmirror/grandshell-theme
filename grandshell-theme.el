@@ -563,6 +563,9 @@
    `(outline-3 ((,class (:inherit org-level-3))))
    `(outline-4 ((,class (:inherit org-level-4))))
 
+   ;; page-break-lines
+   `(page-break-lines ((,class (:foreground ,faintest))))
+
    ;; parenface
    `(paren-face ((,class (:foreground ,faintest :background nil))))
 
