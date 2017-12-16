@@ -60,6 +60,7 @@
       (pink "#ff5f87")
       (pink-darker "#aa2255")
       (orange "#efc334")
+      (morange "#EF8534")
       (yellow "#f6df92")
       (yellow-darker "#a86")
       (yellow-dark "#643")
@@ -373,7 +374,7 @@
    `(grep-match-face ((,class (:foreground nil :background nil :inherit match))))
 
    ;; hackernews
-   `(hackernews-link ((,class (:foreground ,orange))))
+   `(hackernews-link ((,class (:foreground ,morange))))
    `(hackernews-comment-count ((,class (:foreground ,yellow-dark))))
    `(hackernews-score ((,class (:foreground ,yellow-darker))))
 
