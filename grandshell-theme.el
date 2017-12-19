@@ -397,7 +397,7 @@
    `(helm-ff-prefix ((t (:foreground ,yellow :weight bold))))
 
    ;; highlight-symbol
-   `(highlight-symbol-face ((,class (:background ,yellow-dark))))
+   `(highlight-symbol-face ((,class (:background ,faintest))))
 
    ;; icomplete
    `(icomplete-first-match ((,class (:foreground "white" :bold t))))
