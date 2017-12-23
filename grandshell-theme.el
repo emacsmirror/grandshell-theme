@@ -273,17 +273,17 @@
 
 ;;;;; eshell
    `(eshell-ls-archive ((,class (:foreground ,cyan :weight normal))))
-   `(eshell-ls-backup ((,class (:foreground ,yellow))))
+   `(eshell-ls-backup ((,class (:foreground ,yellow-darker))))
    `(eshell-ls-clutter ((,class (:foreground ,orange :weight normal))))
    `(eshell-ls-directory ((,class (:foreground ,blue :weight normal))))
-   `(eshell-ls-executable ((,class (:foreground ,red :weight normal))))
-   `(eshell-ls-missing ((,class (:foreground ,violet :weight normal))))
+   `(eshell-ls-executable ((,class (:foreground ,turquoise :weight normal))))
+   `(eshell-ls-missing ((,class (:foreground ,pink :weight normal))))
    `(eshell-ls-product ((,class (:foreground ,yellow))))
-   `(eshell-ls-readonly ((,class (:foreground ,faintest))))
+   `(eshell-ls-readonly ((,class (:foreground ,faint))))
    `(eshell-ls-special ((,class (:foreground ,green :weight normal))))
-   `(eshell-ls-symlink ((,class (:foreground ,magenta :weight normal))))
-   `(eshell-ls-unreadable ((,class (:foreground ,normal))))
-   `(eshell-prompt ((,class (:foreground ,green :weight normal))))
+   `(eshell-ls-symlink ((,class (:foreground ,magenta-bright :weight normal))))
+   `(eshell-ls-unreadable ((,class (:foreground ,violet))))
+   `(eshell-prompt ((,class (:foreground ,yellow :weight normal))))
 
 ;;;;; eval-sexp-fu
    `(eval-sexp-fu-flash ((,class (:background ,magenta-dark))))
