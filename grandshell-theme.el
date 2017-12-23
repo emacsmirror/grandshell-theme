@@ -611,6 +611,17 @@
    `(slime-repl-result-face ((,class (:foreground ,green))))
    `(slime-repl-output-face ((,class (:foreground ,blue :background ,background))))
 
+;;;;; term
+   `(term ((,class (:foreground ,normal :background ,background))))
+   `(term-color-black ((,class (:foreground ,faintest))))
+   `(term-color-blue ((,class (:foreground ,blue))))
+   `(term-color-cyan ((,class (:foreground ,cyan))))
+   `(term-color-green ((,class (:foreground ,turquoise))))
+   `(term-color-magenta ((,class (:foreground ,magenta))))
+   `(term-color-red ((,class (:foreground ,pink))))
+   `(term-color-white ((,class (:foreground ,strong))))
+   `(term-color-yellow ((,class (:foreground ,yellow))))
+
 ;;;;; smart-mode-line
    `(sml/prefix ((,class (:foreground ,green-bright))))
    `(sml/folder ((,class (:foreground ,magenta-bright))))
@@ -636,8 +647,11 @@
 ;;;;; web-mode
    `(web-mode-html-tag-face ((,class (:foreground ,bright))))
    `(web-mode-html-attr-name-face ((,class (:inherit font-lock-doc-face))))
-   `(web-mode-doctype-face ((,class (:inherit font-lock-builtin-face))))
-   ))
+   `(web-mode-doctype-face ((,class (:inherit font-lock-builtin-face)))))
+
+  (custom-theme-set-variables
+     'grandshell
+     `(ansi-color-names-vector [,faintest ,pink ,turquoise ,yellow ,blue ,magenta ,cyan ,normal])))
 
 ;;;; end
 ;;;###autoload
