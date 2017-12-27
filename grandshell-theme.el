@@ -487,12 +487,13 @@
 ;;;;; markdown
    `(markdown-url-face ((,class (:inherit link))))
    `(markdown-link-face ((,class (:foreground ,blue :underline t))))
-   `(markdown-header-face-1 ((,class (:inherit (org-level-1 variable-pitch)))))
-   `(markdown-header-face-2 ((,class (:inherit (org-level-2 variable-pitch)))))
-   `(markdown-header-face-3 ((,class (:inherit (org-level-3 variable-pitch)))))
-   `(markdown-header-face-4 ((,class (:inherit (org-level-4 variable-pitch)))))
+   `(markdown-header-face-1 ((,class (:inherit org-level-1))))
+   `(markdown-header-face-2 ((,class (:inherit org-level-2))))
+   `(markdown-header-face-3 ((,class (:inherit org-level-3))))
+   `(markdown-header-face-4 ((,class (:inherit org-level-4))))
    `(markdown-header-delimiter-face ((,class (:foreground ,orange))))
    `(markdown-pre-face ((,class (:foreground "white"))))
+   `(markdown-code-face ((,class (:foreground "white"))))
    `(markdown-inline-code-face ((,class (:foreground "white"))))
    `(markdown-list-face ((,class (:foreground ,cyan))))
 
