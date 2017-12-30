@@ -247,6 +247,15 @@
 ;;;;; eldoc
    `(eldoc-highlight-function-argument ((,class (:foreground ,green :weight bold))))
 
+;;;;; elfeed
+   `(elfeed-search-date-face ((,class (:foreground ,yellow-darker))))
+   `(elfeed-search-feed-face ((,class (:foreground ,magenta))))
+   `(elfeed-search-tag-face ((,class (:foreground ,pink))))
+   `(elfeed-search-title-face ((,class (:foreground ,yellow))))
+   `(elfeed-log-error-level-face ((t (:foreground ,red))))
+   `(elfeed-log-info-level-face ((t (:foreground ,blue))))
+   `(elfeed-log-warn-level-face ((t (:foreground ,yellow))))
+
 ;;;;; erb
    `(erb-delim-face ((,class (:background ,alt-background))))
    `(erb-exec-face ((,class (:background ,alt-background :weight bold))))
@@ -506,7 +515,7 @@
    `(message-header-subject ((,class (:inherit message-header-other :weight bold :foreground ,yellow))))
    `(message-header-to ((,class (:inherit message-header-other :weight bold :foreground ,orange))))
    `(message-header-cc ((,class (:inherit message-header-to :foreground nil))))
-   `(message-header-name ((,class (:foreground ,green :background nil))))
+   `(message-header-name ((,class (:foreground ,magenta :background nil))))
    `(message-header-newsgroups ((,class (:foreground ,cyan :background nil :slant normal))))
    `(message-separator ((,class (:foreground ,magenta))))
 
