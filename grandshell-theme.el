@@ -657,11 +657,16 @@
 ;;;;; web-mode
    `(web-mode-html-tag-face ((,class (:foreground ,bright))))
    `(web-mode-html-attr-name-face ((,class (:inherit font-lock-doc-face))))
-   `(web-mode-doctype-face ((,class (:inherit font-lock-builtin-face)))))
+   `(web-mode-doctype-face ((,class (:inherit font-lock-builtin-face))))
+
+;;;;; which-key
+   `(which-key-command-description-face ((,class (:foreground ,yellow))))
+   `(which-key-note-face ((,class (:foreground ,normal))))
+   `(which-key-key-face ((,class (:inherit font-lock-builtin-face)))))
 
   (custom-theme-set-variables
-     'grandshell
-     `(ansi-color-names-vector [,faintest ,pink ,turquoise ,yellow ,blue ,magenta ,cyan ,normal])))
+   'grandshell
+   `(ansi-color-names-vector [,faintest ,pink ,turquoise ,yellow ,blue ,magenta ,cyan ,normal])))
 
 ;;;; end
 ;;;###autoload
