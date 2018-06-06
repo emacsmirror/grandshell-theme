@@ -2,7 +2,7 @@
 
 Dark color theme for Emacs >= 24 with intensive colors suited to my taste :)
 
-![screenshot](https://raw.github.com/steckerhalter/grandshell-theme/master/grandshell-theme.png)
+![screenshot](https://framagit.org/steckerhalter/grandshell-theme/raw/master/grandshell-theme.png)
 
 ## Installation ##
 
@@ -11,7 +11,7 @@ Dark color theme for Emacs >= 24 with intensive colors suited to my taste :)
 `quelpa` is at https://github.com/quelpa/quelpa
 
 ```lisp
-(quelpa '(grandshell-theme :repo "steckerhalter/grandshell-theme" :fetcher github))
+(quelpa '(grandshell-theme :url "https://framagit.org/steckerhalter/grandshell-theme.git" :fetcher git))
 ;; since the recipe is stored in melpa this also works:
 (quelpa 'grandshell-theme)
 ```
@@ -23,16 +23,6 @@ You can install the theme using the packages on [melpa](https://melpa.org/) (see
 
 Then use `M-x package-list-packages`, select `grandshell-theme` from
 the list by pressing `i`, then press `x` to execute the changes.
-
-### el-get
-
-Here's a basic recipe you can use to install it via el-get:
-
-    (:name grandshell
-           :type github
-           :pkgname "steckerhalter/grandshell-theme"
-           :minimum-emacs-version 24
-           :post-init (add-to-list 'custom-theme-load-path default-directory))
 
 ## Usage
 

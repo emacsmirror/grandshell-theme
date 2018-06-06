@@ -1,10 +1,10 @@
 ;;; grandshell-theme.el --- Grand Shell color theme for Emacs > 24
 
-;; Copyright 2014-2017, Steckerhalter
+;; Copyright 2014-2018, Steckerhalter
 
 ;; Author: steckerhalter
 ;; Keywords: color theme grand shell faces
-;; URL: https://github.com/steckerhalter/grandshell-theme
+;; URL: https://framagit.org/steckerhalter/grandshell-theme
 
 ;; This file is not part of GNU Emacs.
 
